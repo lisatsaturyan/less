@@ -1,0 +1,150 @@
+body{
+    
+
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin: none;
+    background: no-repeat;
+    background: rgb(248, 248, 245);
+   
+}
+.mej
+{
+    position: relative;
+    position: fixed;
+    display: block;
+    margin-bottom: 0px;
+    padding: 1px;
+    height: 500px;
+    width:650px;
+    margin-left: 400px;
+    margin-right:400px ;
+    margin-top: 8px;
+    border: 1px solid #1d787a;
+    background: rgb(255,135,6);
+    background: linear-gradient(135deg, rgba(255,135,6,1) 0%, rgba(238,151,48,0.42620798319327735) 37%, rgba(154,231,255,1) 100%);
+}
+
+form
+{
+    justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+.header
+{
+    height: auto;
+    width: auto;
+    padding-top: 0px ;
+}
+
+.footer
+{
+    height: auto;
+    width: auto;
+    margin-top: 505px;
+}
+
+
+.nkar1{
+width: 100%;
+height: 80px;
+margin-top: 0%;
+}
+
+.nkar2 
+{
+width: 100%;
+height: 70px;
+
+}
+
+
+input, textarea
+{
+    
+    display: block;
+    width: 550px;
+    margin: 15px ;
+    margin-left: 50px;
+    padding: 5px;
+    border: 1px solid #1d787a;
+    border-radius: 3px;
+    outline: 1px  #A7A7A9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    transition: 0.5s;
+    
+
+}
+
+input:hover{
+    border: 1px solid #003307;
+}
+input:focus{
+    border: 1px solid #453f3c;
+}
+textarea:hover{
+    border: 1px solid #003307;
+}
+textarea:focus{
+    border: 1px solid #453f3c;
+}
+
+#urls 
+{
+    cursor: copy;
+}
+button
+ {
+    background:   rgb(255, 255, 93);
+    border: 1px solid white;
+    padding: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 5px ;
+    font-size: 20px;
+    margin-left: 430px ;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    display: block;
+    color:#453f3c ;
+    text-shadow: 0.2px 0.2px #453f3c;
+    position: relative;
+    text-align: center;
+  
+
+
+}
+button:hover {
+    background:  rgb(255, 129, 27) ;
+    border: 1px solid #ffee5a;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px ;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.wrong
+{
+    border: 1px solid red;
+    background: #BA5A31;
+   
+    
+    
+}
+.wrong:hover {
+    border:1px solid rgb(255, 123, 123);
+    background: white;
+   
+}
+
+
